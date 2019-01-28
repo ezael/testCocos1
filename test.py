@@ -22,7 +22,7 @@ class HelloWorld(cLayer.Layer):
             anchor_y='center'
         )
 
-        self.txtKey.position = 300, 240
+        self.txtKey.position = 320, 240
 
         self.keys_pressed = set()
         self.update_text()
